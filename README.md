@@ -173,7 +173,7 @@ They provide a high-level overview of **system functionality** and help identify
 ---
 
 ### Main Use Cases
-- Create booking  
+- Create a booking  
 - Modify or cancel booking  
 - Search for available slots or rooms  
 - View booking details  
@@ -195,3 +195,30 @@ In this diagram:
 
 This visualization makes it easier to understand user interactions at a glance and ensures no major user flow is overlooked during the design phase.
 
+---
+
+### Acceptance Criteria
+
+**Acceptance Criteria** are the predefined conditions or requirements that a software feature must meet to be considered complete and satisfactory.  
+They serve as a bridge between developers, testers, and stakeholders, ensuring everyone has a shared understanding of what success looks like for each feature.  
+
+#### Importance of Acceptance Criteria in Requirement Analysis
+
+- **Clarity and Alignment:** They help align the development team and stakeholders on what needs to be delivered, reducing misunderstandings.  
+- **Validation of Requirements:** They make it easier to verify that all functional and non-functional requirements have been met before deployment.  
+- **Basis for Testing:** Acceptance criteria guide the creation of test cases to confirm that features work as expected.  
+- **Efficient Development:** They help developers stay focused on well-defined outcomes, improving productivity and quality.  
+
+#### Example: Checkout Feature (Booking Management System)
+
+**Feature:** User Checkout  
+
+**Acceptance Criteria:**  
+1. The user must be able to review booking details (room type, dates, total price) before confirming.  
+2. The system must display all accepted payment methods (e.g., credit card, PayPal, or mobile money).  
+3. The checkout form must validate user information (name, email, and payment details) before processing.  
+4. Upon successful payment, a confirmation email with booking details must be sent to the user.  
+5. The system must update the room’s availability status immediately after checkout completion.  
+6. If payment fails, the system must display an appropriate error message and prompt the user to retry.
+
+---
