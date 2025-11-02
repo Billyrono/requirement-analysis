@@ -64,7 +64,7 @@ Requirement Analysis fosters collaboration between stakeholders, clients, and th
 
 ---
 
-> In summary, **Requirement Analysis is the backbone of successful software development**, ensuring that projects are delivered on time, within scope, and with maximum impact.<
+> In summary, **Requirement Analysis is the backbone of successful software development**, ensuring that projects are delivered on time, within scope, and with maximum impact.
 
 ---
 
@@ -101,7 +101,7 @@ Here are the five key activities involved in Requirement Analysis:
 
 ---
 
-> Together, these activities form a structured approach to capturing and managing software requirements, reducing risks, and ensuring the development process starts on a solid foundation. <
+> Together, these activities form a structured approach to capturing and managing software requirements, reducing risks, and ensuring the development process starts on a solid foundation.
 
 ---
 
@@ -148,4 +148,50 @@ These requirements ensure the system delivers a high-quality experience — reli
 ---
 
 > In summary, **Functional Requirements** define *what* the system should do, while **Non-functional Requirements** define *how well* it should perform those functions.  
-Both are essential to delivering a complete and successful Booking Management System. <
+Both are essential to delivering a complete and successful Booking Management System.
+
+---
+
+## Use Case Diagrams
+
+**Use Case Diagrams** are visual representations used in **Requirement Analysis** to show how different **actors** (users or external systems) interact with the system to achieve specific goals.  
+They provide a high-level overview of **system functionality** and help identify all the possible interactions between users and the system.
+
+### Benefits of Use Case Diagrams
+- **Simplifies Communication:** Helps stakeholders quickly understand the system’s capabilities and interactions.  
+- **Defines System Scope:** Clarifies what the system will and will not do.  
+- **Supports Requirement Validation:** Ensures all functional requirements are accounted for.  
+- **Guides Design and Testing:** Serves as a reference point for developers and testers when implementing and verifying features.
+
+---
+
+### Actors in the Booking Management System
+1. **Customer** – Makes and manages bookings.  
+2. **Administrator** – Oversees all bookings, manages availability, and updates system information.  
+3. **Payment Gateway** – Handles secure transactions between the user and the system.
+
+---
+
+### Main Use Cases
+- Create booking  
+- Modify or cancel booking  
+- Search for available slots or rooms  
+- View booking details  
+- Process payment  
+- Send confirmation or notification emails  
+- Manage bookings and availability (Admin)
+
+### Use Case Diagram
+
+Below is the Use Case Diagram for a **Booking Management System**.
+
+![Booking Management System Use Case Diagram](alx-booking-uc.png)
+
+**Explanation:**  
+In this diagram:
+- The **Customer** interacts with use cases such as *Create Booking*, *Modify Booking*, *Cancel Booking*, *Search Availability*, and *Make Payment*.  
+- The **Administrator** manages *View All Bookings*, *Update Availability*, and *Send Notifications*.  
+- The **Payment Gateway** processes payments when customers make bookings.
+
+This visualization makes it easier to understand user interactions at a glance and ensures no major user flow is overlooked during the design phase.
+
