@@ -64,7 +64,7 @@ Requirement Analysis fosters collaboration between stakeholders, clients, and th
 
 ---
 
-> In summary, **Requirement Analysis is the backbone of successful software development**, ensuring that projects are delivered on time, within scope, and with maximum impact.
+> In summary, **Requirement Analysis is the backbone of successful software development**, ensuring that projects are delivered on time, within scope, and with maximum impact.<
 
 ---
 
@@ -101,4 +101,51 @@ Here are the five key activities involved in Requirement Analysis:
 
 ---
 
-> Together, these activities form a structured approach to capturing and managing software requirements, reducing risks, and ensuring the development process starts on a solid foundation.
+> Together, these activities form a structured approach to capturing and managing software requirements, reducing risks, and ensuring the development process starts on a solid foundation. <
+
+---
+
+## Types of Requirements
+
+In software development, requirements are generally categorized into two main types: **Functional Requirements** and **Non-functional Requirements**.  
+Understanding the difference between the two is essential for designing a system that is both effective and efficient.
+
+
+### Functional Requirements
+
+**Definition:**  
+Functional requirements describe **what the system should do** — the specific features, tasks, and operations it must perform to fulfill user and business needs.  
+They focus on the **actions and behaviors** of the system.
+
+**Examples (Booking Management System):**
+- The system should allow users to **create new bookings** for available rooms or services.  
+- The system should enable users to **search for bookings** using filters such as date, booking ID, or customer name.  
+- The system should allow users to **modify or cancel existing bookings** before the scheduled date.  
+- The system should send **email confirmations and notifications** to customers after successful booking or cancellation.  
+- Administrators should be able to **view all bookings** and manage availability calendars.  
+
+**Purpose:**  
+These requirements ensure that the system delivers the intended functionality and provides value to its end users.
+
+
+### Non-functional Requirements
+
+**Definition:**  
+Non-functional requirements describe **how the system performs** its functions rather than what it does.  
+They define the **quality attributes** of the system — such as performance, security, usability, and reliability.
+
+**Examples (Booking Management System):**
+- The system should **load search results within 3 seconds** under normal network conditions.  
+- The platform must be **available 99.9% of the time**, ensuring minimal downtime.  
+- User data must be **encrypted using SSL/TLS** protocols for security.  
+- The system interface should be **responsive and accessible** on both desktop and mobile devices.  
+- The application should support **up to 10,000 concurrent users** without performance degradation.  
+- The system should have a **user-friendly interface** that requires minimal training to use.  
+
+**Purpose:**  
+These requirements ensure the system delivers a high-quality experience — reliable, fast, secure, and user-friendly.
+
+---
+
+> In summary, **Functional Requirements** define *what* the system should do, while **Non-functional Requirements** define *how well* it should perform those functions.  
+Both are essential to delivering a complete and successful Booking Management System. <
